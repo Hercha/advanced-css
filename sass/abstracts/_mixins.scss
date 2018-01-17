@@ -13,6 +13,7 @@
     transform: translate(-50%, -50%);
 }
 
+// DESKTOP FIRST
 // MEDIA QUERY MANAGER
 /* 
 0-600px:        Phone
@@ -20,6 +21,8 @@
 900 - 1200px:   Tablet landscape
 [1200 - 1800] is where our normal styles apply
 1800px +;       Big desktop  
+
+ORDER: Base + typograhy > general layout + grid > page layout > components
 
 $breakpoint argument choices:
 - phone
